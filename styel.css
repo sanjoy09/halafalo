@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.full-web{
+    width: 1500px;
+    margin: auto;
+    border: 1px solid black;
+}
+.menu{
+}
+.menu ul{
+    text-align: center;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    background-color: #48dbfb;
+    font-family: sans-serif;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    transition: .5s;
+}
+.menu ul li:hover a{
+    color: #48dbfb;
+    background-color: #fff;
+}
+.menu ul li a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 11%;
+    background: #000;
+    top: 34px;
+    left: 16px;
+    transition: .5s;
+}
+.menu ul li a:hover::after{
+    width: 71%;
+}
+/* season 2 */
+.app{
+    max-width: 100%;
+    background-color: #48dbfb;
+    margin-top: 1%;
+    text-align: center;
+    padding: 100px;
+}
+.app h4{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
+}
+.app h1{
+    color: #fff;
+    font-size: 70px;
+    padding: 10px;
+    font-family: 'Work Sans', sans-serif;
+}
+.google{
+    background-color: #fff;
+    padding:15px 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    color: #dddd;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+}
+.google:hover{
+    color: #fff;
+}
+.google::before{
+    content: "";
+    height: 100%;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    border-radius: 5px;
+    transition: .5s;
+    z-index: -1;
+}
+.google:hover::before{
+    width: 100%;
+}
+/* season 2 */
+.season2{
+    max-width: 100%;
+    background-color: #f7f9f9;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 80px;
+}
+.txt{
+    width: 1000px;
+    margin: auto;
+}
+/* gellary season */
+.gellary{
+    background-color: #f7f9f9;
+    padding-bottom: 150px;
+}
+.box1{
+    text-align: center;
+    margin: auto;
+}
+img{
+    max-width: 100%;
+}
+.same-img{
+    display: inline-block;
+    width: 300px;
+    margin-right: 30px;
+    transition: 0.5s;
+}
+.img1{
+    overflow: hidden;
+}
+.img1 img{
+    transform: rotate(0);
+    display: block;
+    transition: .5s;
+}
+.img1 img:hover{
+    transform: rotate(360deg);
+}
+.img2{
+    overflow: hidden;
+}
+.img2 img{
+    transform: rotate(0);
+    display: block;
+    transition: .5s;
+}
+.img2 img:hover{
+    transform: scale(1.2) rotate(30deg);
+}
+.img3{
+    overflow: hidden;
+}
+.img3 img{
+    transform: rotate(0);
+    display: block;
+    transition: .5s;
+}
+.img3 img:hover{
+    transform: scale(1.2) rotate(-30deg);
+}
+.img4{
+    overflow: hidden;
+}
+.img4 img{
+    transform: rotate(0);
+    display: block;
+    transition: .5s;
+}
+.img4 img:hover{
+    transform: scale(1.2) rotate(-30deg);
+}
+/* Searon 2 */
+.box2{
+    text-align: center;
+    margin: 20px auto;
+}
+.img5{
+    overflow: hidden;
+}
+.img5 img{
+    transform: rotate(0);
+    display: block;
+    transition: .5s;
+}
+.img5 img:hover{
+    transform: scale(1.2) rotate(30deg);
+}
+.img6{
+    overflow: hidden;
+}
+.img6 img{
+    transform: rotate(0);
+    display: block;
+    transition: .5s;
+}
+.img6 img:hover{
+    transform: rotate(360deg);
+}
+.img7{
+    overflow: hidden;
+}
+.img7 img{
+    transform: rotate(0);
+    display: block;
+    transition: .5s;
+}
+.img7 img:hover{
+    transform: scale(1.5);
+}
+.img8{
+    overflow: hidden;
+}
+.img8 img{
+    transform: rotate(0);
+    display: block;
+    transition: .5s;
+}
+.img8 img:hover{
+    transform: scale(1.2);
+}
+/* contant season */
+.contain{
+    max-width: 100%;
+    background-color: #f7f9f9;
+}
+.all-contant{
+    text-align: center;
+    margin: auto;
+    width: 1300px;
+}
+.all-contant h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 35px;
+}
+.all-contant p{
+    font-size: 20px;
+    line-height: 40px;
+    font-family: sans-serif;
+}
+/* step all */
+.all-step{
+    text-align: center;
+    padding: 25px;
+}
+.all-step .step1{
+    color: #fff;
+    background-color: #000;
+    padding: 20px 25px;
+    font-size:20px;
+    transform: translate(200);
+}
+.all-step .step2{
+    color: #fff;
+    background-color: #000;
+    padding: 20px 25px;
+    font-size:20px;
+}
+.all-step .step3{
+    color: #fff;
+    background-color: #000;
+    padding: 20px 25px;
+    font-size:20px;
+}
+/* footer */
+.footer{
+    text-align: center;
+    font-family: sans-serif;
+    color: #ddd;
+    background-color: #2e2f31;
+    padding: 40px;
+    font-size: 20px;
+}
+.all-step .step1{
+    transform: translate(-250px) rotate(-35deg);
+}
+.all-step .step1:hover{
+    transform: translate(-250px) rotate(0) scale(1.1);
+    background-color: #30a8cc;
+}
+.all-step .step2:hover{
+    transform: scale(1.1);
+    background-color: #30a8cc;
+}
+.all-step .step3{
+    transform: translate(250px) rotate(35deg);
+}
+.all-step .step3:hover{
+    transform: translate(250px) rotate(0) scale(1.1);
+    background-color: #30a8cc;
+}
